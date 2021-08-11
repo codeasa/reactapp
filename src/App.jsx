@@ -17,6 +17,7 @@ function App() {
         </p>
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.
+          Testing
         </p>
         <p>
           <a
