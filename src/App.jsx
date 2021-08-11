@@ -1,18 +1,22 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import Header from './comps/Header';
+import Footer from './comps/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <Header></Header>
+      <Footer></Footer>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!!!! I IA</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count} 
+            count is: {count}
           </button>
         </p>
         <p>
